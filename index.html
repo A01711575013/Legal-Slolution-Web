@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;800&family=Poppins:ital,wght@0,200;1,300&display=swap"
+        rel="stylesheet">
+    <!-- CDN Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Legal Slolution Web</title>
+    <!-- Primary Color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .prmary-color {
+            btn-primary-color: #B68C5A
+        }
+
+        .font-garamond {
+            font-family: 'EB Garamond';
+            
+        }
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-6xl mx-auto border-4 border-[#726565]">
+        <nav class="flex flex-col lg:flex-row justify-between items-center mt-10 font-poppins">
+            <div class="py-4">
+                <img src="images/logo2.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-2 lg:gap-6">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services <i class="fa-solid fa-angle-right lg:pl-2"></i></a></li>
+                    <li><a href="">Cases <i class="fa-solid fa-angle-right lg:pl-2"></i></a></li>
+                    <li><a href="">Blog <i class="fa-solid fa-angle-right lg:pl-2"></i></a></li>
+                    <li><a href="">Contacts <i class="fa-solid fa-angle-right lg:pl-2"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bg-[#B68C5A] p-3 rounded-lg font-garamond text-lg font-semibold my-4"> Free Consultation</button>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
